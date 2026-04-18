@@ -12,7 +12,7 @@ export default function Hero() {
           </div>
 
           {/* Main Title */}
-          <h1>
+          <h1 className="text-heading-md">
             Turning Vision Into <br className="hidden sm:block" /> Scalable Reality
           </h1>
 

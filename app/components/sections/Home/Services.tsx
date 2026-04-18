@@ -94,13 +94,10 @@ export default function Services() {
 
       {/* HEADER */}
       <div className="text-center mb-12 md:mb-16">
-        <h3 
-          className="text-xs md:text-lg font-bold uppercase tracking-wider mb-2 md:mb-3 text-primary"
-          
-        >
+        <h5 >
           — Scaling With
-        </h3>
-        <h2 className="text-2xl md:text-4xl font-bold" style={{ color: "var(--color-neutral-800)" }}>
+        </h5>
+        <h2 >
           Building the future alongside global pioneers
         </h2>
       </div>

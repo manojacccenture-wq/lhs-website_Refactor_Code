@@ -20,14 +20,14 @@ export default function Trusted() {
     <section className="text-center py-12 md:py-20 overflow-hidden">
       {/* HEADER */}
       <div className="mb-8 md:mb-12">
-        <h3
-          className="text-xs md:text-lg font-bold uppercase tracking-wider mb-2 md:mb-3 text-primary"
+        <h5
+          // className="text-xs md:text-lg font-bold uppercase tracking-wider mb-2 md:mb-3 text-primary"
 
         >
-          — Trusted By
-        </h3>
+          — TRUSTED BY
+        </h5>
         <h2
-          className="text-2xl md:text-4xl font-bold"
+          // className="text-2xl md:text-4xl font-bold"
         >
           Don&apos;t take our word for it
         </h2>

@@ -36,8 +36,8 @@ const gradientMap = {
         <div className="w-8 md:w-10 flex-shrink-0">{icon}</div>
 
         <div className="text-left">
-          <h3 className="text-base md:text-lg font-bold">{title}</h3>
-          <p className="text-sm md:text-base">{description}</p>
+          <h4 >{title}</h4>
+          <p >{description}</p>
         </div>
       </div>
     </div>
