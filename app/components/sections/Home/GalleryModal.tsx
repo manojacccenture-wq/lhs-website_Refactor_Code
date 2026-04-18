@@ -7,7 +7,7 @@ import Image from "next/image";
 
 
 
-// ✅ reusable icon
+//  reusable icon
 const Icon = () => (
   <span className="relative block w-10 h-10">
     <Image
@@ -20,7 +20,7 @@ const Icon = () => (
   </span>
 );
 
-// ✅ reusable phone group
+//  reusable phone group
 const Phones = () => (
   <div className="absolute -top-16 flex items-center gap-0 z-10">
     {["/phone_1.svg", "/phone_2.svg", "/phone_3.svg"].map((src) => (
@@ -38,10 +38,9 @@ const Phones = () => (
   </div>
 );
 
-// ✅ reusable card renderer
+//  reusable card renderer
 const Card = ({
   slide,
-  children,
 }: {
   slide: (typeof slides)[number];
   children?: React.ReactNode;

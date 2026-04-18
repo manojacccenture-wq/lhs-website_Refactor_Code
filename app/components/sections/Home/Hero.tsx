@@ -8,26 +8,16 @@ export default function Hero() {
         <div className="max-w-5xl mx-auto text-center">
           {/* Badge */}
           <div className="inline-block mb-4 md:mb-6">
-            <h2
-              className="text-xs md:text-sm font-semibold uppercase tracking-wide px-3 py-1.5 md:px-4 md:py-2 rounded-full text-primary"
-
-            >
-              From Concept to Scalable Code
-            </h2>
+            <h5>FROM CONCEPT TO SCALABLE CODE</h5>
           </div>
 
           {/* Main Title */}
-          <h1
-            className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight"
-
-          >
+          <h1>
             Turning Vision Into <br className="hidden sm:block" /> Scalable Reality
           </h1>
 
           {/* Subtitle */}
-          <p
-            className="text-base sm:text-lg md:text-xl mb-8 md:mb-10 max-w-2xl mx-auto leading-relaxed"
-          >
+          <p className="mt-[4%]">
             We build smart, scalable software that transforms ideas into streamlined, real-world solutions.
           </p>
 
@@ -36,10 +26,7 @@ export default function Hero() {
             <Button variant="primary">
               Get Started
             </Button>
-            <Button
-              variant="outline"
-
-            >
+            <Button variant="outline">
               Learn More →
             </Button>
           </div>

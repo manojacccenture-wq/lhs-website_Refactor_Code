@@ -36,5 +36,28 @@
   /* BG RGB */
   --color-bg-page-rgb: 255, 255, 255;
 
-  --color-neutral-800-rgb: 23, 15, 73;
+
+  /* ================= Gradients ================= */
+
+  /* GREEN */
+  --color-green-400: #2dd4bf;
+  --color-green-500: #22c55e;
+
+  /* BLUE */
+  --color-blue-500: #0F62FE;
+  --color-blue-100: #D9D9D9;
+
+  /* YELLOW */
+  --color-yellow-500: #F5B82E;
+  --color-yellow-100: #F7F7FB;
+
+  /* PURPLE */
+  --color-purple-500: #6C5CE7;
+  --color-purple-100: #EDE9FE;
+
+
+
+
+
+
 }

@@ -14,12 +14,12 @@ export default function FeatureCard({
   variant = "green",
 }: FeatureCardProps) {
 
-  const gradientMap = {
-    green: "from-teal-400 to-green-500",
-    blue: "from-[#0F62FE] to-[#D9D9D9]",
-    yellow: "from-[#F5B82E] to-[#F7F7FB]",
-    purple: "from-[#6C5CE7] to-[#EDE9FE]",
-  };
+const gradientMap = {
+  green: "bg-gradient-green",
+  blue: "bg-gradient-blue",
+  yellow: "bg-gradient-yellow",
+  purple: "bg-gradient-purple",
+};
 
   return (
     <div className="w-full max-w-4xl rounded-2xl md:rounded-3xl shadow-xl transition-all duration-500">

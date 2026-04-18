@@ -1,0 +1,17 @@
+@layer utilities {
+  .bg-gradient-green {
+    background: var(--gradient-green);
+  }
+
+  .bg-gradient-blue {
+    background: var(--gradient-blue);
+  }
+
+  .bg-gradient-yellow {
+    background: var(--gradient-yellow);
+  }
+
+  .bg-gradient-purple {
+    background: var(--gradient-purple);
+  }
+}

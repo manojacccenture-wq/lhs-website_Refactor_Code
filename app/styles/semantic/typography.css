@@ -6,23 +6,20 @@
 
 @layer base {
   h1 {
-    font-weight: 500;
-    /*font-size:clamp(min,preferred,max)  */
-    font-size: clamp(12px, 4vw, 17px);
-    /*line-height:clamp(min,preferred,max)  */
-    line-height: clamp(13px, 6vw, 0px);
-    /*letter-spacing:clamp(min,preferred,max)  */
-    letter-spacing: clamp(var(--tracking-tight), var(--tracking-wide), var(--tracking-wide));
-    color: var(--color-brand-primary);
-    margin-bottom: clamp(20px, 3vw, 40px);
+    font-weight: 700;
+    color: var(--color-header-title);
+    font-size: clamp(32px, 4vw, 60px);
+    line-height: clamp(40px, 6vw, 70px);
+    letter-spacing: clamp(var(--tracking-tight), -0.3vw, var(--tracking-normal));
+
   }
 
   h2 {
     font-weight: 700;
     font-size: clamp(35px, 5vw, 60px);
     line-height: clamp(36px, 5vw, 70px);
-    margin-bottom: clamp(20px, 3vw, 40px);
-    color: var(--color-text-title);
+    
+    color: var(--color-header-title);
   }
 
   h3 {
@@ -32,12 +29,33 @@
     color: var(--color-text-title);
   }
 
+  h4 {
+    font-weight: 600;
+    font-size: clamp(20px, 3vw, 28px);
+    line-height: clamp(30px, 4vw, 44px);
+    color: var(--color-text-title);
+  }
+
+  h5 {
+    font-weight: 400;
+    font-size: clamp(10px,100vh, 16px);
+    line-height: clamp(30px, 4vw, 44px);
+    color: var(--color-brand-primary);
+  }
+
+  h6 {
+    font-weight: 600;
+    font-size: clamp(20px, 3vw, 28px);
+    line-height: clamp(30px, 4vw, 44px);
+    color: var(--color-text-title);
+  }
+
   p {
+    font-weight: 400;
     font-size: clamp(12px, 1.5vw, 16px);
     line-height: clamp(13px, 4vw, 0px);
     color: var(--color-text-body);
-        margin-bottom: clamp(20px, 3vw, 40px);
-    /* max-width: 600px; */
+    margin-bottom: clamp(20px, 3vw, 40px);
   }
 
   a {
